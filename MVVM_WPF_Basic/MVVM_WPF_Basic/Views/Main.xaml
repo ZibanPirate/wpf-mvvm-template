@@ -11,6 +11,16 @@
         <vm:MainViewModel/>
     </Window.DataContext>
     <Grid>
+        <ListBox x:Name="listView" Margin="0,0,0,48" ItemsSource="{Binding Accounts}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Background="Red">
+                        <Label Content="{Binding Id}"/>
+                        <Label Content="{Binding Name}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
 
     </Grid>
 </Window>
