@@ -58,6 +58,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Models\Account.cs" />
     <Compile Include="ViewModels\Basis\DelegateCommand.cs" />
     <Compile Include="ViewModels\Basis\ObservableObject.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
@@ -93,7 +94,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AppData\" />
-    <Folder Include="Models\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
