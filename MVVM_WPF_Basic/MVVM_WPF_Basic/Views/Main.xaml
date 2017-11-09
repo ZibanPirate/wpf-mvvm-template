@@ -21,7 +21,7 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <Button x:Name="button" Content="Add Item" Margin="0,234,0,0"/>
+        <Button x:Name="button" Content="Add Item" Command="{Binding AddItem}" Height="35" VerticalAlignment="Bottom"/>
 
     </Grid>
 </Window>
